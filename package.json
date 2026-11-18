@@ -1,0 +1,20 @@
+{
+  "name": "vesper-ward",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VESPER WARD — Original First-Person Survival-Horror Demo (St. Damian Thoracic & Somnology Infirmary)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4175 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4175 --strictPort"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.170.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

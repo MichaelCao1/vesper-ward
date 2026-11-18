@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.*
+*.log
+playwright-report/
+test-results/
+/qa-artifacts/
+/planning/
+/ACCEPTANCE_REPORT.md
+/DEFECT_AND_POLISH_LOG.md
+/PROGRESS_LOG.md
